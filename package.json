@@ -1,0 +1,23 @@
+{
+  "name": "challenge-express-mongodb",
+  "description": "- JavaScript\r - Express\r - PostgreSQL\r - JWT",
+  "version": "1.0.0",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "jsonwebtoken": "^9.0.0",
+    "mongoose": "^7.0.3",
+    "morgan": "^1.10.0",
+    "node": "^19.8.1",
+    "nodemon": "^2.0.22"
+  },
+  "author": "",
+  "license": "ISC"
+}
