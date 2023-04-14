@@ -1,8 +1,12 @@
 import { Router } from 'express';
-import { prueba } from '../controllers/prueba.js';
+import { signup } from '../controllers/signup.js';
+import { login } from '../controllers/login.js';
+import { verifyToken } from '../controllers/verifyToken.js';
 
 const router = Router();
 
-router.get('/login', prueba);
+router.post('/signup', signup);
+router.post('/login', login);
+router.get('/verify',verifyToken);
 
 export default router;

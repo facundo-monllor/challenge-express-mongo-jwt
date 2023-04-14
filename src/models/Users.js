@@ -1,10 +1,9 @@
 import mongoose from 'mongoose';
 
 const userSchema = new mongoose.Schema({
-  id: {
-    type: integer,
-    primaryKey: true,
-    autoIncrement: true,
+  _id: {
+    type: mongoose.Schema.Types.ObjectId,
+    auto: true,
   },
   email: {
     type: String,
